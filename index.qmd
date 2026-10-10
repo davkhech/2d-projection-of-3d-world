@@ -1,0 +1,99 @@
+---
+title: "2D projection of 3D world"
+subtitle: "Why understanding a few assumptions can tell us more than fitting a thousand parameters."
+author: "Your Name"
+date: "2026-10-11"
+date-format: "MMMM D, YYYY"
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+# Introduction
+
+This is the first step of 1000 step journey
+
+## Motivation
+
+So be it 
+
+## What else
+
+I don't know yet
+hello again?
+
+$$
+Y = AX + b
+$$
+
+ha vor
+
+spasi senc mi hat el orinak menq ananq. $ X = Y $ asenq te.
+
+
+Scientific progress often begins with a deceptively
+simple question. Before reaching for a complex model,
+it helps to understand which assumptions are doing
+the real work.
+
+A good model is not necessarily the most complicated
+one. It is the one that helps us understand something
+meaningful about the world.
+
+## Start with the question
+
+Consider a simple linear relationship between an
+input \(x\) and an observed response \(y\):
+
+$$
+y = \beta_0 + \beta_1 x + \epsilon
+$$
+
+Here, \(\beta_0\) represents the intercept,
+\(\beta_1\) the slope, and \(\epsilon\) the part of
+the observation that the model does not explain.
+
+This simple equation already encodes assumptions
+about how the variables relate to one another.
+Understanding those assumptions is often more
+valuable than immediately reaching for a more
+elaborate model.
+
+## A small computational experiment
+
+We can explore the relationship with a few lines
+of Python:
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+x = np.linspace(0, 10, 100)
+y = 2 * x + 1
+
+plt.plot(x, y, color="#47745b", linewidth=2)
+plt.xlabel("Input")
+plt.ylabel("Predicted response")
+plt.show()
+```
+
+The code is intentionally simple. It produces a
+straight line, but it also gives us a starting point
+for thinking about noise, uncertainty, and the
+limitations of our assumptions.
+
+## What simplicity really means
+
+Simplicity is not the absence of detail. It is the
+deliberate choice of which details matter.
+
+In scientific work, a useful explanation should
+make its reasoning inspectable. Equations should
+clarify the argument, figures should reveal patterns,
+and code should make computational claims easier
+to reproduce.
+
+The goal is not to make every problem simple.
+It is to understand what makes a problem difficult
+before deciding how to solve it.

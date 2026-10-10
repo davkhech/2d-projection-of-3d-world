@@ -1,0 +1,24 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "2D projection of 3D world"
+  navbar: false
+
+format:
+  html:
+    theme:
+      - default
+      - styles.scss
+    toc: true
+    number-sections: false
+    smooth-scroll: true
+    code-copy: true
+    syntax-highlighting: github
+    html-math-method: mathjax
+
+execute:
+  freeze: auto
+
+lang: en

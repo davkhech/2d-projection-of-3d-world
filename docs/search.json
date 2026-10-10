@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "2D projection of 3D world",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "index.html#motivation",
+    "href": "index.html#motivation",
+    "title": "2D projection of 3D world",
+    "section": "Motivation",
+    "text": "Motivation\nSo be it"
+  },
+  {
+    "objectID": "index.html#what-else",
+    "href": "index.html#what-else",
+    "title": "2D projection of 3D world",
+    "section": "What else",
+    "text": "What else\nI don’t know yet hello again?\n\\[\nY = AX + b\n\\]\nha vor\nspasi senc mi hat el orinak menq ananq. $ X = Y $ asenq te.\nScientific progress often begins with a deceptively simple question. Before reaching for a complex model, it helps to understand which assumptions are doing the real work.\nA good model is not necessarily the most complicated one. It is the one that helps us understand something meaningful about the world."
+  },
+  {
+    "objectID": "index.html#start-with-the-question",
+    "href": "index.html#start-with-the-question",
+    "title": "2D projection of 3D world",
+    "section": "Start with the question",
+    "text": "Start with the question\nConsider a simple linear relationship between an input (x) and an observed response (y):\n\\[\ny = \\beta_0 + \\beta_1 x + \\epsilon\n\\]\nHere, (_0) represents the intercept, (_1) the slope, and () the part of the observation that the model does not explain.\nThis simple equation already encodes assumptions about how the variables relate to one another. Understanding those assumptions is often more valuable than immediately reaching for a more elaborate model."
+  },
+  {
+    "objectID": "index.html#a-small-computational-experiment",
+    "href": "index.html#a-small-computational-experiment",
+    "title": "2D projection of 3D world",
+    "section": "A small computational experiment",
+    "text": "A small computational experiment\nWe can explore the relationship with a few lines of Python:\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nx = np.linspace(0, 10, 100)\ny = 2 * x + 1\n\nplt.plot(x, y, color=\"#47745b\", linewidth=2)\nplt.xlabel(\"Input\")\nplt.ylabel(\"Predicted response\")\nplt.show()\nThe code is intentionally simple. It produces a straight line, but it also gives us a starting point for thinking about noise, uncertainty, and the limitations of our assumptions."
+  },
+  {
+    "objectID": "index.html#what-simplicity-really-means",
+    "href": "index.html#what-simplicity-really-means",
+    "title": "2D projection of 3D world",
+    "section": "What simplicity really means",
+    "text": "What simplicity really means\nSimplicity is not the absence of detail. It is the deliberate choice of which details matter.\nIn scientific work, a useful explanation should make its reasoning inspectable. Equations should clarify the argument, figures should reveal patterns, and code should make computational claims easier to reproduce.\nThe goal is not to make every problem simple. It is to understand what makes a problem difficult before deciding how to solve it."
+  }
+]
